@@ -19,7 +19,7 @@
   </section>
 
 
-  <section class="col col-40">
+  <section class="col col-50">
     <div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
       <iframe style="position:absolute; left:0; top:0; width:100%; height:100%"
           src="https://www.youtube.com/embed/ARe9FupzuOA" frameborder="0" allowfullscreen>
@@ -49,9 +49,9 @@
   <section class="col col-40 opinion">
     <a class="little-headline">The Opinion Pages</a>
     <div class="opinion-articles">
-      <article>
+      <article class="half">
         <h3>Op-Ed Contributor</h3>
-        <a href="#">Will Javascript ever be as easy as Ruby?</a>
+        <a class = "little-headline" href="#">Will Javascript ever be as easy as Ruby?</a>
         <p>Javscript continues to advance with the newly released EcmaScript7 but it still doesn't quite read like Ruby.</p>
         <ul>
           <li>Torvalds: When I Was Almost Wrong</li>
@@ -64,17 +64,29 @@
         </ul>
       </article>
 
-      <article>
-        Operations
-        App Academy New York Has A Brand New Office
-        By NY OPERATIONS
+      <article class="half">
+        <h3>Operations</h3>
+        <a class = "little-headline" href="#">App Academy New York Has A Brand New Office</a>
+        <h4>By NY OPERATIONS</h4>
 
-        The new space features hardwood floors and brick walls for a modern technology space with an aura for learning.
-
-        Opinion Today, in your Inbox
-        Each weekday, get though-provoking commentary from our columnists and contributors.
+        <p>The new space features hardwood floors and brick walls for a modern technology space with an aura for learning.</p>
+        <div class="thumbnail">
+          <img class = "office-image" src="assets/new_office.jpg" alt="New Office">
+        </div>
+        <a class = "little-headline" href="#">Opinion Today, in your Inbox</a>
+        <p>
+        Each weekday, get though-provoking commentary from our columnists and contributors.</p>
       </article>
 
+    </div>
+
+    <div class="sign-up">
+      <input type="text" name="opinion_subscribe[email]" value=" Get the Opinion newsletter by email">
+      <button type="submit" name="button">Sign Up</button>
+    </div>
+
+    <div class="cold">
+      We'll also send offers to join the App Academy Bootcamp. You can never unsubscribe.
     </div>
 
   </section>

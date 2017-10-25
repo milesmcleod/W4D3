@@ -54,8 +54,79 @@ section p {
   justify-content: center;
 }
 
+.opinion-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.opinion-articles article li {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.opinion-articles article h3 {
+  margin: 5px 0;
+}
+
 .opinion a {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.half {
+  width: 50%;
+  padding: 5px;
+}
+
+.half .little-headline {
+  margin: 0;
+  padding: 0;
+}
+
+.half p {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.half h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.office-image {
+  height: 120px;
+}
+
+.sign-up {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sign-up button {
+  flex: 1;
+}
+
+.sign-up input {
+  width: 80%;
+  border: 1px solid $gray;
+  border: 1px solid $gray;
+  border-radius: 3px;
+  font-family: $sans-serif;
+  color: $gray;
+  font-size: 12px;
+
+}
+
+.cold {
+  font-family: $sans-serif;
+  color: $gray;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 5px 0;
 }
