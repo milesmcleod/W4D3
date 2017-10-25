@@ -1,0 +1,61 @@
+.main-content {
+  margin-top: 15px;
+}
+
+.headline {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.little-headline {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 10px 0;
+  padding-top: 5px;
+}
+
+.comment-link {
+  color: $blue;
+  font-size: 10;
+  font-family: $sans-serif;
+}
+
+.main-content section h4 {
+  color: $gray;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.main-content section li {
+  list-style: outside;
+  line-height: 1.5;
+  font-size: 14px;
+  position: relative;
+  left: 8%;
+  width: 92%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.main-content hr {
+  width: 50%;
+}
+
+.opinion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.opinion a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
