@@ -3,9 +3,10 @@
 }
 
 .headline {
-  font-size: 32px;
+  font-size: 28px;
   font-style: italic;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 .little-headline {
@@ -39,6 +40,12 @@
   margin-bottom: 10px;
 }
 
+.news {
+  padding-bottom: 20px;
+  border-bottom: 3px groove $lightest-gray;
+  padding-right: 15px;
+}
+
 section p {
   margin: 10px 0;
   font-size: 14px;
@@ -52,6 +59,8 @@ section p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 3px groove $lightest-gray;
 }
 
 .opinion-articles {

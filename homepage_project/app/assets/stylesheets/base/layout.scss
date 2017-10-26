@@ -49,6 +49,25 @@ a:hover {
 	object-fit: cover;
 }
 
+@media all and (max-width: 1154px) {
+
+  .sections-nav {
+    display: none;
+  }
+
+	.language-nav {
+		display: none;
+	}
+
+	.right-nav button {
+		display: none;
+	}
+
+	.left-nav {
+		margin: 0 auto;
+	}
+}
+
 /*
 	Header Rules
 */
